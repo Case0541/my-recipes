@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Name</title>
 </head>
+
 <body>
-    <h1>Name</h1>
-    <!-- Insert image -->
+    <div class="recipe-page-container">
+        <h1>Name</h1>
+        <!-- Insert image -->
 
-    <h2>Description</h2>
-    <p></p>
-
-    <!-- Ingredients -->
-    <h2>Ingredients</h2>
-    <ul>
-        <li>Spices:
+        <h2>Description</h2>
+        <p></p>
+        <div class="recipe-ing-ins-container">
+            <!-- Ingredients -->
+            <h2>Ingredients</h2>
             <ul>
-                <li>Salt and pepper to taste</li>
+                <li>Spices:
+                    <ul>
+                        <li>Salt and pepper to taste</li>
+                    </ul>
+                </li>
             </ul>
-        </li>
-    </ul>
 
-    <!-- Instructions -->
-    <h2>Instructions</h2>
-    <ol>
-    </ol>
-
-    <a href="../index.html">Back to recipes</a>
+            <!-- Instructions -->
+            <h2>Instructions</h2>
+            <ol>
+            </ol>
+        </div>
+        <button id="go-back" onclick="history.back()">Go Back</button>
+        <button id="back-to-recipes" onclick="window.location.href='../index.html'">Back to recipes</button>
+    </div>
 </body>
+
 </html>

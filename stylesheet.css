@@ -1,0 +1,73 @@
+/* stylesheet.css */
+
+:root {
+  --primary-color: #d6e4c793;
+  --secondary-color: #a9bb91;
+  --recipe-page-color: #d9addd;
+  --font-size: 16px;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background-color: var(--primary-color);
+  margin: 0;
+  padding: 20px;
+}
+
+.main-page-container {
+  background-color: var(--secondary-color);
+}
+
+.recipe-page-container {
+  background-color: var(--recipe-page-color);
+}
+
+.main-page-container,
+.recipe-page-container {
+  padding: 20px;
+  border: 1px solid black;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.recipes-container,
+.recipe-ing-ins-container {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+}
+.recipe-ing-ins-container {
+  width: 50%;
+}
+
+ul,
+ol {
+  text-align: left;
+  display: flexbox;
+}
+
+#go-back {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #c9cac8;
+  cursor: pointer;
+  display: inline-block;
+}
+#back-to-recipes {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.recipe-page-container#chili-stew {
+  background-color: #74544f;
+}
+.recipe-page-container#curry {
+  background-color: #dee494;
+}
